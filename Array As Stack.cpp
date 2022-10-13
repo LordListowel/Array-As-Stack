@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define MAXSIZE 1000
-//a c++ code to implement an array in the as a std::stack
+//a c++ code to implement a stack with the use of an array
 
 class Stack{
     int size;
@@ -26,7 +26,7 @@ bool Stack::push(int x){
     }
     
 }
-//pop function to return the top of the stack after it is popped
+//pop function to return the element that is popped after the stack is popped
 int Stack::pop(){
    if(size<0){
        cout<<"stack underflow";
